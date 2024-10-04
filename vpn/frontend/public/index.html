@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover"/>
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>VPN</title>
+</head>
+<style>
+    .mask-box {
+        position: fixed;
+        min-height: 100vh;
+        background-color: rgba(0,0,0);
+        opacity: 0.6;
+        display: none;
+        z-index: 999;
+        width: 100%;
+        text-align: end;
+    }
+
+    .mask-box img {
+        width: 100%;
+        height: auto;
+     }
+</style>
+<body>
+  <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+          Please enable it to continue.</strong>
+  </noscript>
+
+  <div class="mask-box" id="mask-box">
+    <img src="<%= BASE_URL %>/images/wechat_browser_tip.png" alt=""/>
+  </div>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+</html>
+<script>
+  function isWx() {
+    var ua = window.navigator.userAgent.toLowerCase();
+    if(ua.match(/windowswechat/i)=="windowswechat" ||
+      ua.match(/MicroMessenger/i)=='micromessenger') {
+      var tip = document.getElementById('mask-box');
+      var app = document.getElementById('app');
+      if (tip) {
+        tip.style.display = 'block';
+      }
+      if (app) {
+        app.style.display = 'none';
+      }
+    }
+  }
+  isWx();
+</script>

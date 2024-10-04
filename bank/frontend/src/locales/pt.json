@@ -1,0 +1,378 @@
+{
+  "app_name": "Warner Wealth",
+  "hello": "Olá ",
+  "back_button": "Retorna",
+  "page_title": {
+    "sign_in": "Conecte-se"
+  },
+  "not_found": {
+    "title": "a página não existe",
+    "line1": "Esta página não existe",
+    "line2": "Por favor, verifique o link, esta página pode ter sido removida",
+    "back_home_button": "Retornar a página inicial"
+  },
+  "footer_bar": {
+    "home": "Casa",
+    "market": "mercado",
+    "asset": "bens",
+    "invest": "investir",
+    "account": "conta"
+  },
+  "sign_in": {
+    "login_to_your_account": "Por favor, faça login com sua conta",
+    "username_label": "E-mail",
+    "required": "(requerido)",
+    "password_label": "senha",
+    "remember_this_account": "lembre de mim",
+    "sign_in_button": "Conecte-se",
+    "forgot_password": "Esqueceu sua senha",
+    "create_account": "Criar Conta",
+    "errors": {
+      "missing_username": "Por favor, digite o e-mail",
+      "missing_password": "Por favor, digite a senha",
+      "general": "Conta ou senha errada!"
+    }
+  },
+  "recovery": {
+    "title": "Recuperar Senha",
+    "email_label": "E-mail",
+    "required": "(requerido)",
+    "send_recovery_instructions_button": "enviar e-mail de recuperação",
+    "sign_in_account": "conta de login",
+    "create_account": "Registar Conta"
+  },
+  "sign_up": {
+    "title": "Criar Conta",
+    "nickname_label": "nome real",
+    "required": "(requerido)",
+    "email_label": "E-mail",
+    "first_password_label": "senha",
+    "second_password_label": "Confirme sua senha",
+    "create_account": "Criar Conta",
+    "forgot_password": "Esqueceu sua senha",
+    "sign_in_account": "conta de login",
+    "agree_term_wording": "Concordo",
+    "term_name": "Termos e Condições",
+    "errors": {
+      "missing_name": "por favor, digite seu nome verdadeiro",
+      "missing_email": "Por favor, digite o e-mail",
+      "missing_password": "Por favor, digite a senha",
+      "missing_password_confirm": "Por favor, digite a senha de confirmação",
+      "password_not_same": "Senhas diferentes inseridas duas vezes",
+      "accept_toc": "Por favor, aceite os termos e condições",
+      "general": "Falha ao se registrar, tente novamente mais tarde!"
+    }
+  },
+  "termAndConditions": {
+    "name": "Termos e Condições"
+  },
+  "home": {
+    "suggest_product": {
+      "title": "produtos recomendados",
+      "min_require": "Valor mínimo de investimento {x}",
+      "freeze_days": "Bloqueado por {n} dias",
+      "estimate_rate": "Retorno anual estimado {x}",
+      "total_asset": "Total de recursos {x}",
+      "empty": "Nenhuma recomendação ainda"
+    },
+    "suggest_invest": {
+      "title": "Lista de Investimentos",
+      "view_all": "ver tudo",
+      "empty": "Nenhuma recomendação ainda",
+      "min": "Valor mínimo de investimento",
+      "frozen_days": "Bloqueado por {n} dias"
+    }
+  },
+  "market": {
+    "name": "mercado",
+    "no_investment": "Ainda sem investimento",
+    "action_sheet": {
+      "purchase_product": "investir",
+      "account_type": "tipo de conta",
+      "product_name": "Nome do Produto",
+      "amount": "resultar",
+      "currency": "unidade",
+      "min_require": "Valor mínimo de investimento {x}",
+      "freeze_days": "Bloqueado por {n} dias",
+      "estimate_rate": "Retorno anual estimado {x}",
+      "total_asset": "Total de recursos {x}",
+      "avail_fund": "Saldo",
+      "fund_fact_sheet": "Ficha informativa do fundo",
+      "prospectus": "Prospecto",
+      "account_num": "conta",
+      "pre_accept_tos": "Concordo",
+      "tos": "Termos e Condições",
+      "confirm_button": "confirme o pagamento",
+      "login_button": "Conecte-se",
+      "errors": {
+        "get_product": "Não foi possível carregar as informações do produto no momento. Tente novamente mais tarde",
+        "get_account": "Não foi possível carregar as informações da conta temporariamente. Tente novamente mais tarde",
+        "amount": "Por favor, insira o valor",
+        "tos": "Por favor, aceite os termos e condições",
+        "general_purchase": "Não foi possível comprar, tente novamente mais tarde!"
+      }
+    }
+  },
+  "invest": {
+    "name": "investir",
+    "my_investment": "meu investimento",
+    "no_investment": "Ainda não há produtos de investimento",
+    "balance_label": "saldo atual",
+    "account": "conta",
+    "product_list": {
+      "unlock_date": "desbloquear"
+    },
+    "action_sheet": {
+      "title": "retorno do investimento",
+      "back_button": "retorno do investimento",
+      "view_more": "ver mais",
+      "empty": "Sem retorno do investimento",
+      "book_cost": "custo de compra",
+      "market_value": "preço de mercado"
+    },
+    "successMessage": {
+      "purchase_title": "Compra bem sucedida!",
+      "purchase_message": "comprou"
+    }
+  },
+  "account": {
+    "name": "pessoal",
+    "information": "informações pessoais",
+    "info_title": "informações pessoais",
+    "your_address": "Endereço de retirada",
+    "your_bank_account": "Saque de conta bancária",
+    "required": "(requerido)",
+    "optional": "(opcional)",
+    "personal_info": "informações pessoais",
+    "username": "nome do usuário",
+    "email": "E-mail",
+    "nickname": "Nome",
+    "phone_number": "número de telefone",
+    "language": "língua preferida",
+    "social_network": "conta social",
+    "telegram": "Telegrama",
+    "whatsapp": "Whatsapp",
+    "facebook": "Facebook",
+    "account_security": "Segurança da conta",
+    "current_password": "Senha atual",
+    "new_password": "Nova Senha",
+    "new_password_confirm": "Confirme sua senha",
+    "apply_button": "Atualizar informação",
+    "contact_support": "Entre em contato com o Atendimento ao Cliente",
+    "sign_out": "sair",
+    "success": "atualização completa!",
+    "errors": {
+      "missing_name": "Por favor, digite seu nome",
+      "missing_email": "Por favor, digite o e-mail",
+      "missing_phone": "Por favor, digite o telefone",
+      "missing_old_password": "Por favor, digite a senha atual",
+      "missing_new_password": "Por favor, digite uma nova senha",
+      "missing_password_confirm": "Por favor, digite a senha de confirmação",
+      "password_not_same": "Senhas diferentes inseridas duas vezes",
+      "general_get": "Não foi possível obter dados, tente novamente mais tarde",
+      "general_update": "Não foi possível atualizar os dados, tente novamente mais tarde"
+    },
+    "address_manage": {
+      "no_address": "Nenhum endereço ainda",
+      "name": "endereço de gestão",
+      "title": "Morada",
+      "subtitle": "Endereço de retirada",
+      "create_new_address": "Criar um novo endereço",
+      "edit_address": "Editar Endereço",
+      "delete_address": "Tem certeza de que deseja excluí-lo?",
+      "name_label": "Nome",
+      "phone_label": "número de telefone",
+      "address_label": "Morada",
+      "country_label": "nação",
+      "province_label": "província",
+      "city_label": "cidade",
+      "zip_label": "código postal",
+      "comment": "Observação",
+      "create": "crio",
+      "edit": "continuar",
+      "delete": "excluir",
+      "errors": {
+        "missing_name": "Por favor, digite seu nome",
+        "missing_address": "Por favor, digite o endereço",
+        "missing_phone": "Por favor, digite o telefone",
+        "missing_country": "Por favor, insira o país",
+        "missing_province": "Por favor, insira a província",
+        "missing_city": "Por favor, insira uma cidade",
+        "missing_zip": "Por favor, insira o CEP",
+        "general_create": "Não foi possível criar o endereço, tente novamente mais tarde",
+        "general_edit": "Não foi possível atualizar o endereço, tente novamente mais tarde",
+        "general_delete": "Não foi possível excluir o endereço. Tente novamente mais tarde"
+      }
+    },
+    "bank_manage": {
+      "no_accounts": "Sem conta bancária para saque em dinheiro",
+      "name": "Gerenciar contas bancárias de saque em dinheiro",
+      "title": "Conta bancária",
+      "subtitle": "Saque de conta bancária",
+      "create_new_bank": "Criar uma nova conta bancária",
+      "edit_bank": "Editar conta bancária",
+      "delete_bank": "Tem certeza de que deseja excluí-lo?",
+      "name_label": "Nome",
+      "account_number_label": "conta",
+      "bank_address_label": "endereço do banco",
+      "bank_name_label": "nome do banco",
+      "transit_code_label": "Número de trânsito",
+      "branch_code_label": "número da agência",
+      "swift_label": "Rápido",
+      "comment": "Observação",
+      "create": "crio",
+      "edit": "continuar",
+      "delete": "excluir",
+      "errors": {
+        "missing_name": "Por favor, digite seu nome",
+        "missing_accountNumber": "Insira o número da conta",
+        "missing_bankName": "Insira o nome do banco",
+        "missing_bankAddress": "Insira o endereço do banco",
+        "missing_branchCode": "Por favor, insira o Código da Filial",
+        "missing_transitCode": "Insira o Código de Trânsito",
+        "missing_swift": "Por favor, digite SWIFT",
+        "general_create": "Não foi possível criar uma conta bancária de saque. Tente novamente mais tarde",
+        "general_edit": "Não foi possível atualizar a conta bancária de saque. Tente novamente mais tarde",
+        "general_delete": "Não foi possível excluir a conta bancária de saque. Tente novamente mais tarde"
+      }
+    }
+  },
+  "asset": {
+    "name": "bens",
+    "pre_accept_tos": "Concordo",
+    "tos": "Termos e Condições",
+    "required": "(requerido)",
+    "account_label": "conta",
+    "account": "conta",
+    "account_number_label": "nome da conta",
+    "choose_account_label": "selecionar conta",
+    "bank_account_label": "contas bancárias",
+    "amount_label": "resultar",
+    "currency": "unidade",
+    "switch_account": "trocar de conta",
+    "avail_balance": "Saldo",
+    "avail_fund": "Saldo",
+    "account_num": "conta",
+    "comment": "Observação",
+    "errors": {
+      "get_account": "Não foi possível carregar as informações da conta temporariamente. Tente novamente mais tarde"
+    },
+    "select_card": {
+      "name": "selecionar conta"
+    },
+    "recent_trans": {
+      "name": "água corrente",
+      "last": "passado",
+      "days": "céu",
+      "total_income": "Rendimento total",
+      "total_expense": "despesas totais",
+      "empty": "Sem água corrente",
+      "error_get_account": "Não é possível consultar a água corrente, volte à página de ativos para selecionar uma conta"
+    },
+    "deposit": {
+      "name": "recarrega",
+      "account": "Conta de deposito",
+      "bank_number_label": "Recarregar conta bancária",
+      "confirm_button": "Confirmar recarga",
+      "confirm_stripe_pay": "Confirmar pagamento",
+      "errors": {
+        "amount": "Por favor, insira o valor",
+        "tos": "Por favor, aceite os termos e condições",
+        "general": "Não foi possível recarregar, tente novamente mais tarde!"
+      },
+      "successMessage": {
+        "purchase_title": "Recarga com sucesso!",
+        "purchase_message": "recarregado"
+      }
+    },
+    "withdrawal": {
+      "name": "retirar o",
+      "choose_withdrawal_type": "Método de retirada",
+      "choose_address": "Escolha um endereço",
+      "choose_bank": "Escolha um cartão bancário",
+      "manage_address": "endereço de gestão",
+      "manage_bank": "Gerenciar cartões bancários",
+      "type_cash": "dinheiro",
+      "type_wired": "transferir",
+      "confirm_button": "Confirmar retirada",
+      "errors": {
+        "accountId": "Selecione uma conta",
+        "addressId": "Selecione um endereço",
+        "bankId": "Selecione um cartão bancário",
+        "amount": "Por favor, insira o valor",
+        "tos": "Por favor, aceite os termos e condições",
+        "general": "Não foi possível retirar, tente novamente mais tarde!"
+      },
+      "successMessage": {
+        "purchase_title": "Retirada realizada!",
+        "purchase_message": "Retirado"
+      }
+    },
+    "exchange": {
+      "name": "intercâmbio",
+      "confirm_button": "Resgatar e transferir para conta",
+      "from_account": "transferir conta",
+      "from_amount": "Transferir o valor",
+      "to_account": "transferir para conta",
+      "rate": "taxa de câmbio",
+      "to_amount": "quantidade final",
+      "errors": {
+        "getExchangeInfo": "Não foi possível carregar os dados de resgate. Tente novamente mais tarde!",
+        "fromAccountId": "Selecione transferir para conta",
+        "toAccountId": "Selecione uma conta de transferência",
+        "amount": "Por favor, insira o valor",
+        "tos": "Por favor, aceite os termos e condições",
+        "general": "Não foi possível resgatar, tente novamente mais tarde!"
+      },
+      "successMessage": {
+        "purchase_title": "Resgate bem sucedido!",
+        "purchase_message": "resgatado"
+      }
+    },
+    "transfer": {
+      "name": "transferir",
+      "quick_action_text": "transferir",
+      "full_name": "Nome do beneficiário",
+      "friend_email_address": "E-mail do beneficiário",
+      "confirm_button": "Confirmar transferência",
+      "add_button": "+",
+      "add_label": "adicionar à",
+      "errors": {
+        "accountId": "Selecione uma conta",
+        "toUserName": "Insira o nome do beneficiário",
+        "toUserEmail": "Insira o e-mail do destinatário",
+        "amount": "Por favor, insira o valor",
+        "tos": "Por favor, aceite os termos e condições",
+        "general": "Não foi possível transferir dinheiro, tente novamente mais tarde!"
+      },
+      "successMessage": {
+        "purchase_title": "A transferência foi bem sucedida!",
+        "purchase_message": "Transferido"
+      }
+    },
+    "purchase": {
+      "name": "investir",
+      "unlock_date": "bloqueado para"
+    },
+    "history": {
+      "recent_order": "ações recentes",
+      "empty": "Sem registro de operação",
+      "name": "histórico de transações",
+      "from": "transferir para fora",
+      "to": "transferir em",
+      "success": "sucesso",
+      "pending": "Em processamento",
+      "declined": "falhou",
+      "back_button": "Retorna",
+      "view_more": "ver mais"
+    }
+  },
+  "contact_support": {
+    "success_message": "Solicitação de atendimento ao cliente enviada com sucesso!",
+    "failed_message": "Não foi possível enviar a solicitação de atendimento ao cliente no momento, tente novamente mais tarde",
+    "missing_comment": "Insira o conteúdo da solicitação de atendimento ao cliente",
+    "title": "Entre em contato com o Atendimento ao Cliente",
+    "detail_label": "Investigação",
+    "send_button": "mandar"
+  }
+}

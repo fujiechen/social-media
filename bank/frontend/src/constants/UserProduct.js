@@ -1,0 +1,4 @@
+export default {
+  USER_PRODUCT_RETURNS_LIMIT: 5,
+  USER_PRODUCT_RETURNS_ORDER_BY_DIRECTION: 'desc',
+};

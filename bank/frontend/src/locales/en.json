@@ -1,0 +1,400 @@
+{
+  "app_name": "Warner Wealth",
+  "hello": "Hello ",
+  "back_button": "Go Back",
+  "close_button": "Close",
+  "page_title": {
+    "sign_in": "Sign In"
+  },
+  "not_found": {
+    "title": "PAGE NOT FOUND",
+    "line1": "The page requested couldn't be found.",
+    "line2": "This could be a spelling error in the URL or a removed page.",
+    "back_home_button": "Back to Home"
+  },
+  "payment_callback": {
+    "title": "Deposit Finished",
+    "line1": "Your recent deposit is finished.",
+    "line2": "Please allow at least 1 hour for our payment system to process.",
+    "back_home_button": "Back to Home Page"
+  },
+  "footer_bar": {
+    "home": "Home",
+    "market": "Market",
+    "asset": "Asset",
+    "invest": "Invest",
+    "account": "Account"
+  },
+  "sign_in": {
+    "login_to_your_account": "Login to your Account.",
+    "username_label": "Username",
+    "required": "(required)",
+    "password_label": "Password",
+    "remember_this_account": "Remember this account",
+    "sign_in_button": "SIGN IN",
+    "forgot_password": "Forgot Password?",
+    "create_account": "Create Account",
+    "errors": {
+      "missing_username": "Username is missing",
+      "missing_password": "Password is missing",
+      "general": "Wrong Email or Password!"
+    }
+  },
+  "recovery": {
+    "title": "Recover your Account",
+    "email_label": "Email Address",
+    "required": "(required)",
+    "send_recovery_instructions_button": "Send Recovery Instructions",
+    "sign_in_account": "Sign In Account",
+    "create_account": "Create Account",
+    "errors": {
+      "missing_email": "Email Address is missing",
+      "general": "Cannot send recovery at the moment, Please try later!"
+    },
+    "message": {
+      "success": "Request success! Please check your email inbox."
+    }
+  },
+  "sign_up": {
+    "title": "Create an account",
+    "nickname_label": "Nick Name",
+    "required": "(required)",
+    "email_label": "Email Address",
+    "first_password_label": "Choose Password",
+    "second_password_label": "Confirm Password",
+    "create_account": "Create Account",
+    "forgot_password": "Forgot Password?",
+    "sign_in_account": "Sign In Account",
+    "agree_term_wording": "I agree with the ",
+    "term_name": "Terms and Conditions",
+    "errors": {
+      "missing_name": "Full Name is missing",
+      "missing_email": "Email Address is missing",
+      "missing_password": "Password is missing",
+      "missing_password_confirm": "Confirmed Password is missing",
+      "password_not_same": "Password has to be same as confirmed Password",
+      "accept_toc": "Please accept Term of Condition",
+      "general": "Cannot register at the moment, Please try later!"
+    }
+  },
+  "termAndConditions": {
+    "name": "Terms and Conditions"
+  },
+  "help": {
+    "name": "Help"
+  },
+  "home": {
+    "suggest_product": {
+      "title": "Suggest Investments",
+      "min_require": "Minimum {x} required",
+      "freeze_days": "Frozen for {n} days | Frozen for {n} day | Frozen for {n} days",
+      "estimate_rate": "Annualized {x} total return estimately",
+      "total_asset": "Total Asset {x}",
+      "empty": "No suggest investment available"
+    },
+    "suggest_invest": {
+      "title": "Investment",
+      "view_all": "View All",
+      "empty": "No suggest investment available",
+      "frozen_days": "Frozen for {n} days | Frozen for {n} day | Frozen for {n} days"
+    }
+  },
+  "market": {
+    "name": "Market",
+    "no_investment": "No Investment Yet",
+    "action_sheet": {
+      "purchase_product": "Invest",
+      "account_type": "Account Type",
+      "product_name": "Product Name",
+      "amount": "Amount",
+      "currency": "Currency",
+      "min_require": "Minimum {x} required",
+      "freeze_days": "Frozen for {n} days | Frozen for {n} day | Frozen for {n} days",
+      "estimate_rate": "Annualized {x} total return estimately",
+      "total_asset": "Total Asset {x}",
+      "fund_fact_sheet": "Fund Fact Sheet",
+      "prospectus": "Prospectus",
+      "avail_fund": "Balance",
+      "account_num": "Account #",
+      "pre_accept_tos": "I accept the ",
+      "tos": "Terms and Conditions",
+      "confirm_button": "Confirm Purchase",
+      "login_button": "Login",
+      "errors": {
+        "get_product": "Cannot get product info at the moment, please try later",
+        "get_account": "Cannot get account info at the moment, please try later",
+        "amount": "Amount is missing",
+        "tos": "Please accept Term of Condition",
+        "general_purchase": "Cannot purchase this product at the moment, please try later"
+      }
+    }
+  },
+  "invest": {
+    "name": "Invest",
+    "my_investment": "My Investment",
+    "no_investment": "No investment yet",
+    "balance_label": "Your Balance",
+    "account": "Account",
+    "product_list": {
+      "unlock_date": "Until",
+      "release_date": "Released"
+    },
+    "action_sheet": {
+      "title": "Investment Returns",
+      "back_button": "Back To Invest",
+      "view_more": "View More",
+      "empty": "No investment returns available",
+      "book_cost": "Book Cost",
+      "market_value": "Market Value"
+    },
+    "successMessage": {
+      "purchase_title": "Purchase successful!",
+      "purchase_message": "Purchased "
+    }
+  },
+  "account": {
+    "name": "Account",
+    "information": "Personal Information",
+    "info_title": "Information",
+    "your_address": "Your Withdrawal Addresses",
+    "your_bank_account": "Your Withdrawal Bank Accounts",
+    "required": "(required)",
+    "optional": "(optional)",
+    "personal_info": "Personal Information",
+    "username": "Username",
+    "email": "Email Address",
+    "nickname": "Nickname",
+    "phone_number": "Phone Number",
+    "language": "Preferred Language",
+    "wechat": "WeChat",
+    "alipay": "Alipay",
+    "social_network": "Social Network",
+    "telegram": "Telegram",
+    "whatsapp": "Whatsapp",
+    "facebook": "Facebook",
+    "account_security": "Account Security",
+    "current_password": "Current Password",
+    "new_password": "New Password",
+    "new_password_confirm": "Confirm Password",
+    "apply_button": "Apply Settings",
+    "contact_support": "Contact Support",
+    "sign_out": "Sign Out",
+    "success": "Update successful!",
+    "errors": {
+      "missing_name": "Name is missing",
+      "missing_email": "Email is missing",
+      "missing_phone": "Phone is missing",
+      "missing_old_password": "Current Password is missing",
+      "missing_new_password": "New Password is missing",
+      "missing_password_confirm": "Confirmed Password is missing",
+      "password_not_same": "Password has to be same as confirmed Password",
+      "general_get": "Cannot get data at the moment, please retry later",
+      "general_update": "Cannot update data at the moment, please retry later"
+    },
+    "address_manage": {
+      "no_address": "No Addresses Yet",
+      "name": "Manage Addresses",
+      "title": "Addresses",
+      "subtitle": "Withdrawal Addresses",
+      "create_new_address": "Create New Address",
+      "edit_address": "Edit Address",
+      "delete_address": "Are you sure deleting?",
+      "name_label": "Name",
+      "phone_label": "Phone Number",
+      "address_label": "Address",
+      "country_label": "Country",
+      "province_label": "Province",
+      "city_label": "City",
+      "zip_label": "Zip",
+      "comment": "Comment",
+      "create": "Create",
+      "edit": "Save",
+      "delete": "Delete",
+      "errors": {
+        "missing_name": "Name is missing",
+        "missing_address": "Address is missing",
+        "missing_phone": "Phone is missing",
+        "missing_country": "Country is missing",
+        "missing_province": "Province is missing",
+        "missing_city": "City is missing",
+        "missing_zip": "Zip is missing",
+        "general_create": "Cannot create address at the moment, please retry later",
+        "general_edit": "Cannot create address at the moment, please retry later",
+        "general_delete": "Cannot create address at the moment, please retry later"
+      }
+    },
+    "bank_manage": {
+      "no_accounts": "No Withdrawal Bank Accounts Yet",
+      "name": "Manage Bank Accounts",
+      "title": "Bank Accounts",
+      "subtitle": "Withdrawal Bank Accounts",
+      "create_new_bank": "Create New Bank Account",
+      "edit_bank": "Edit Bank Account",
+      "delete_bank": "Are you sure deleting?",
+      "name_label": "Name",
+      "phone_label": "Phone Number",
+      "account_number_label": "Account Number",
+      "bank_address_label": "Bank Address",
+      "bank_name_label": "Bank Name",
+      "comment": "Comment",
+      "create": "Create",
+      "edit": "Save",
+      "delete": "Delete",
+      "errors": {
+        "missing_name": "Name is missing",
+        "missing_phone": "Phone is missing",
+        "missing_accountNumber": "Account Number is missing",
+        "missing_bankName": "Bank Name is missing",
+        "missing_bankAddress": "Bank Address is missing",
+        "general_create": "Cannot create bank account at the moment, please retry later",
+        "general_edit": "Cannot create bank account at the moment, please retry later",
+        "general_delete": "Cannot create bank account at the moment, please retry later"
+      }
+    }
+  },
+  "asset": {
+    "name": "Asset",
+    "pre_accept_tos": "I accept the ",
+    "tos": "Terms and Conditions",
+    "required": "(required)",
+    "account_label": "Account",
+    "account": "Account",
+    "account_number_label": "Account Number",
+    "choose_account_label": "Choose Account",
+    "bank_account_label": "Bank Account",
+    "amount_label": "Amount",
+    "payment_method_label": "Payment Method",
+    "currency": "Currency",
+    "switch_account": "Switch Account",
+    "avail_balance": "Balance",
+    "avail_fund": "Balance",
+    "account_num": "Account #",
+    "comment": "Comment",
+    "errors": {
+      "get_account": "Cannot get account info at the moment, please try later"
+    },
+    "select_card": {
+      "name": "Select Account"
+    },
+    "recent_trans": {
+      "name": "Transactions",
+      "last": "Last",
+      "days": "days",
+      "total_income": "Total Income",
+      "total_expense": "Total Expense",
+      "empty": "No recent transactions available",
+      "error_get_account": "Cannot find any transaction, please choose account on Asset page first"
+    },
+    "deposit": {
+      "name": "Deposit",
+      "account": "Deposit Account",
+      "bank_number_label": "USDT Deposit Address",
+      "confirm_button": "DEPOSIT FUNDS",
+      "confirm_stripe_pay": "CONFIRM PAY",
+      "errors": {
+        "amount": "Amount is missing",
+        "tos": "Please accept Term of Condition",
+        "general": "Cannot deposit this product at the moment, please try later"
+      },
+      "successMessage": {
+        "purchase_title": "Deposit created!",
+        "purchase_message": "Deposited "
+      },
+      "payment_method": {
+        "credit_card": "Credit Card",
+        "alipay": "Alipay",
+        "wechatpay": "WechatPay",
+        "unionpay": "UnionPay"
+      }
+    },
+    "withdrawal": {
+      "name": "Withdrawal",
+      "choose_withdrawal_type": "Choose Withdrawal Type",
+      "choose_address": "Choose Address",
+      "choose_bank": "Choose Bank Account",
+      "manage_address": "Manage Addresses",
+      "manage_bank": "Manage Bank Account",
+      "type_cash": "Cash",
+      "type_wired": "Wired",
+      "confirm_button": "WITHDRAWAL FUNDS",
+      "errors": {
+        "accountId": "Please choose account",
+        "addressId": "Please choose address",
+        "bankId": "Please choose bank account",
+        "amount": "Amount is missing",
+        "tos": "Please accept Term of Condition",
+        "general": "Cannot withdraw at the moment, please try later"
+      },
+      "successMessage": {
+        "purchase_title": "Withdraw successful!",
+        "purchase_message": "Withdraw "
+      }
+    },
+    "exchange": {
+      "name": "Exchange",
+      "confirm_button": "Convert and Add to Account",
+      "from_account": "From Account",
+      "from_amount": "Exchange Amount",
+      "to_account": "To Account",
+      "rate": "Exchange Rate",
+      "to_amount": "Final Amount",
+      "errors": {
+        "getExchangeInfo": "Cannot get exchange info at the moment, please try later",
+        "fromAccountId": "Please choose From Account",
+        "toAccountId": "Please choose To Account",
+        "amount": "Amount is missing",
+        "tos": "Please accept Term of Condition",
+        "general": "Cannot exchange at the moment, please try later"
+      },
+      "successMessage": {
+        "purchase_title": "Exchange successful!",
+        "purchase_message": "Exchanged "
+      }
+    },
+    "transfer": {
+      "name": "Transfer",
+      "quick_action_text": "Transfer Money",
+      "full_name": "Receiver Nickname",
+      "friend_email_address": "Receiver Email Address",
+      "confirm_button": "TRANSFER TO FRIEND",
+      "add_button": "+",
+      "add_label": "Add",
+      "errors": {
+        "accountId": "Please choose Account",
+        "toUserName": "Receiver Nickname is missing",
+        "toUserEmail": "Receiver Email Address is missing",
+        "amount": "Amount is missing",
+        "tos": "Please accept Term of Condition",
+        "general": "Cannot transfer at the moment, please try later"
+      },
+      "successMessage": {
+        "purchase_title": "Transfer successful!",
+        "purchase_message": "Transferred "
+      }
+    },
+    "purchase": {
+      "name": "Purchase",
+      "unlock_date": "Frozen until"
+    },
+    "history": {
+      "recent_order": "Recent Activities",
+      "empty": "No recent activities yet",
+      "name": "History",
+      "from": "From",
+      "to": "To",
+      "success": "SUCCESS",
+      "pending": "PENDING",
+      "declined": "DECLINED",
+      "back_button": "BACK",
+      "view_more": "View More"
+    }
+  },
+  "contact_support": {
+    "success_message": "Support request sent successfully!",
+    "failed_message": "Cannot submit support request at the moment, please retry later",
+    "missing_comment": "Please fill in the support request",
+    "title": "Contact Support",
+    "detail_label": "Contact Detail",
+    "send_button": "Send"
+  }
+}

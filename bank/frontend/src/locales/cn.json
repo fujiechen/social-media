@@ -1,0 +1,398 @@
+{
+  "app_name": "Bank",
+  "hello": "你好 ",
+  "back_button": "返回",
+  "close_button": "关闭",
+  "page_title": {
+    "sign_in": "登录"
+  },
+  "not_found": {
+    "title": "页面不存在",
+    "line1": "此页面不存在",
+    "line2": "请检查链接，此页面或许已删除",
+    "back_home_button": "返回主页"
+  },
+  "payment_callback": {
+    "title": "支付完成",
+    "line1": "系统完成支付处理最多需要1小时",
+    "line2": "如果超过1小时仍未到账，请联系客服",
+    "back_home_button": "返回主页"
+  },
+  "footer_bar": {
+    "home": "主页",
+    "market": "市场",
+    "asset": "资产",
+    "invest": "投资",
+    "account": "账户"
+  },
+  "sign_in": {
+    "login_to_your_account": "请使用账户登录",
+    "username_label": "用户名",
+    "required": "(必填)",
+    "password_label": "密码",
+    "remember_this_account": "记住账号",
+    "sign_in_button": "登录",
+    "forgot_password": "忘记密码",
+    "create_account": "创建账户",
+    "errors": {
+      "missing_username": "请输入用户名",
+      "missing_password": "请输入密码",
+      "general": "账户或密码错误！"
+    }
+  },
+  "recovery": {
+    "title": "请求重置密码",
+    "email_label": "电子邮箱",
+    "required": "(必填)",
+    "send_recovery_instructions_button": "重置密码",
+    "sign_in_account": "登录账户",
+    "create_account": "注册账户",
+    "errors": {
+      "missing_email": "请输入电子邮箱",
+      "general": "暂时无法找回密码，请稍后重试！"
+    },
+    "message": {
+      "success": "密码重置邮件已发送"
+    }
+  },
+  "sign_up": {
+    "title": "注册",
+    "nickname_label": "昵称",
+    "required": "(必填)",
+    "email_label": "电子邮箱",
+    "first_password_label": "密码",
+    "second_password_label": "确认密码",
+    "create_account": "创建账户",
+    "forgot_password": "忘记密码",
+    "sign_in_account": "登录账户",
+    "agree_term_wording": "我同意",
+    "term_name": "条款与细则",
+    "errors": {
+      "missing_name": "请输入昵称",
+      "missing_email": "请输入电子邮箱",
+      "missing_password": "请输入密码",
+      "missing_password_confirm": "请输入确认密码",
+      "password_not_same": "两次输入的密码不同",
+      "accept_toc": "请接受条款与细则",
+      "general": "无法注册，请稍后重试！"
+    }
+  },
+  "termAndConditions": {
+    "name": "条款与细则"
+  },
+  "help": {
+    "name": "帮助"
+  },
+  "home": {
+    "suggest_product": {
+      "title": "推荐投资",
+      "min_require": "起投金额{x}",
+      "freeze_days": "锁定{n}天",
+      "estimate_rate": "预估年化收益{x}",
+      "total_asset": "总资产{x}",
+      "empty": "暂无推荐投资"
+    },
+    "suggest_invest": {
+      "title": "投资列表",
+      "view_all": "查看全部",
+      "empty": "暂无推荐",
+      "min": "起投金额",
+      "frozen_days": "锁定{n}天"
+    }
+  },
+  "market": {
+    "name": "市场",
+    "no_investment": "暂无投资",
+    "action_sheet": {
+      "purchase_product": "投资",
+      "account_type": "账户类型",
+      "product_name": "产品名称",
+      "amount": "金额",
+      "currency": "币种",
+      "min_require": "起投金额{x}",
+      "freeze_days": "锁定{n}天",
+      "estimate_rate": "预估年化收益{x}",
+      "total_asset": "总资产{x}",
+      "avail_fund": "余额",
+      "fund_fact_sheet": "基金情况说明书",
+      "prospectus": "招股说明书",
+      "account_num": "账号",
+      "pre_accept_tos": "我同意",
+      "tos": "条款与细则",
+      "confirm_button": "确认支付",
+      "login_button": "登录",
+      "errors": {
+        "get_product": "暂时无法加载产品信息，请稍后重试",
+        "get_account": "暂时无法加载账户信息，请稍后重试",
+        "amount": "请输入金额",
+        "tos": "请接受条款与细则",
+        "general_purchase": "无法购买，请稍后重试！"
+      }
+    }
+  },
+  "invest": {
+    "name": "投资",
+    "my_investment": "我的投资",
+    "no_investment": "暂无投资",
+    "balance_label": "当前余额",
+    "account": "账户",
+    "product_list": {
+      "unlock_date": "锁定至",
+      "release_date": "已解锁"
+    },
+    "action_sheet": {
+      "title": "投资回报",
+      "back_button": "返回投资",
+      "view_more": "查看更多",
+      "empty": "暂无投资回报",
+      "book_cost": "购买成本",
+      "market_value": "市场价格"
+    },
+    "successMessage": {
+      "purchase_title": "购买成功！",
+      "purchase_message": "已购买"
+    }
+  },
+  "account": {
+    "name": "个人",
+    "information": "个人信息",
+    "info_title": "个人信息",
+    "your_address": "提现地址",
+    "your_bank_account": "提现银行账号",
+    "required": "(必填)",
+    "optional": "(选填)",
+    "personal_info": "个人信息",
+    "username": "用户名",
+    "email": "电子邮箱",
+    "nickname": "昵称",
+    "phone_number": "手机号码",
+    "language": "偏好语言",
+    "wechat": "微信",
+    "alipay": "支付宝",
+    "social_network": "社交账户",
+    "telegram": "电报",
+    "whatsapp": "WhatsApp",
+    "facebook": "脸书",
+    "account_security": "账户安全",
+    "current_password": "当前密码",
+    "new_password": "新密码",
+    "new_password_confirm": "确认密码",
+    "apply_button": "更新信息",
+    "contact_support": "联系客服",
+    "sign_out": "登出账户",
+    "success": "更新成功！",
+    "errors": {
+      "missing_name": "请输入昵称",
+      "missing_email": "请输入电子邮箱",
+      "missing_phone": "请输入电话",
+      "missing_old_password": "请输入当前密码",
+      "missing_new_password": "请输入新密码",
+      "missing_password_confirm": "请输入确认密码",
+      "password_not_same": "两次输入的密码不同",
+      "general_get": "无法获取数据，请稍后重试",
+      "general_update": "无法更新数据，请稍后重试"
+    },
+    "address_manage": {
+      "no_address": "暂无地址",
+      "name": "管理地址",
+      "title": "地址",
+      "subtitle": "提现地址",
+      "create_new_address": "创建新地址",
+      "edit_address": "编辑地址",
+      "delete_address": "您确定要删除吗？",
+      "name_label": "姓名",
+      "phone_label": "电话号码",
+      "address_label": "地址",
+      "country_label": "国家",
+      "province_label": "省份",
+      "city_label": "城市",
+      "zip_label": "邮编",
+      "comment": "备注",
+      "create": "创建",
+      "edit": "保存",
+      "delete": "删除",
+      "errors": {
+        "missing_name": "请输入姓名",
+        "missing_address": "请输入地址",
+        "missing_phone": "请输入电话",
+        "missing_country": "请输入国家",
+        "missing_province": "请输入省份",
+        "missing_city": "请输入城市",
+        "missing_zip": "请输入邮编",
+        "general_create": "无法创建地址，请稍后重试",
+        "general_edit": "无法更新地址，请稍后重试",
+        "general_delete": "无法删除地址，请稍后重试"
+      }
+    },
+    "bank_manage": {
+      "no_accounts": "暂无提现银行账号",
+      "name": "管理提现银行账号",
+      "title": "银行账号",
+      "subtitle": "提现银行账号",
+      "create_new_bank": "创建新银行账号",
+      "edit_bank": "编辑银行账号",
+      "delete_bank": "您确定要删除吗？",
+      "name_label": "姓名",
+      "phone_label": "电话号码",
+      "account_number_label": "银行账号",
+      "bank_address_label": "开户行地址",
+      "bank_name_label": "开户行名称",
+      "comment": "备注",
+      "create": "创建",
+      "edit": "保存",
+      "delete": "删除",
+      "errors": {
+        "missing_name": "请输入姓名",
+        "missing_phone": "请输入电话",
+        "missing_accountNumber": "请输入账户号",
+        "missing_bankName": "请输入开户行名称",
+        "missing_bankAddress": "请输入开户行地址",
+        "general_create": "无法创建提现银行账户，请稍后重试",
+        "general_edit": "无法更新提现银行账户，请稍后重试",
+        "general_delete": "无法删除提现银行账户，请稍后重试"
+      }
+    }
+  },
+  "asset": {
+    "name": "资产",
+    "pre_accept_tos": "我同意",
+    "tos": "条款与细则",
+    "required": "(必填)",
+    "account_label": "账户",
+    "account": "账户",
+    "account_number_label": "账户名",
+    "choose_account_label": "选择账户",
+    "bank_account_label": "银行账户",
+    "amount_label": "金额",
+    "payment_method_label": "支付方式",
+    "currency": "币种",
+    "switch_account": "切换账户",
+    "avail_balance": "余额",
+    "avail_fund": "余额",
+    "account_num": "账号",
+    "comment": "备注",
+    "errors": {
+      "get_account": "暂时无法加载账户信息，请稍后重试"
+    },
+    "select_card": {
+      "name": "选择账户"
+    },
+    "recent_trans": {
+      "name": "流水",
+      "last": "过去",
+      "days": "天",
+      "total_income": "总收入",
+      "total_expense": "总支出",
+      "empty": "暂无流水",
+      "error_get_account": "无法查询流水，请返回资产页面选择账户"
+    },
+    "deposit": {
+      "name": "充值",
+      "account": "充值帐户",
+      "bank_number_label": "USDT充值地址",
+      "confirm_button": "确认充值",
+      "confirm_stripe_pay": "确认支付",
+      "errors": {
+        "amount": "请输入金额",
+        "tos": "请接受条款与细则",
+        "general": "无法充值，请稍后重试！"
+      },
+      "successMessage": {
+        "purchase_title": "已创建充值订单！",
+        "purchase_message": "已充值 "
+      },
+      "payment_method": {
+        "credit_card": "信用卡",
+        "alipay": "支付宝",
+        "wechatpay": "微信支付",
+        "unionpay": "银联支付"
+      }
+    },
+    "withdrawal": {
+      "name": "提现",
+      "choose_withdrawal_type": "提现方式",
+      "choose_address": "选择地址",
+      "choose_bank": "选择银行卡",
+      "manage_address": "管理地址",
+      "manage_bank": "管理银行卡",
+      "type_cash": "现金",
+      "type_wired": "电汇",
+      "confirm_button": "确认提现",
+      "errors": {
+        "accountId": "请选择账户",
+        "addressId": "请选择地址",
+        "bankId": "请选择银行卡",
+        "amount": "请输入金额",
+        "tos": "请接受条款与细则",
+        "general": "无法提现，请稍后重试！"
+      },
+      "successMessage": {
+        "purchase_title": "提现成功！",
+        "purchase_message": "已提现 "
+      }
+    },
+    "exchange": {
+      "name": "兑换",
+      "confirm_button": "兑换并转入账户",
+      "from_account": "转出账户",
+      "from_amount": "转出金额",
+      "to_account": "转入账户",
+      "rate": "汇率",
+      "to_amount": "最终金额",
+      "errors": {
+        "getExchangeInfo": "无法加载兑换数据，请稍后重试！",
+        "fromAccountId": "请选择转入账户",
+        "toAccountId": "请选择转出账户",
+        "amount": "请输入金额",
+        "tos": "请接受条款与细则",
+        "general": "无法兑换，请稍后重试！"
+      },
+      "successMessage": {
+        "purchase_title": "兑换成功！",
+        "purchase_message": "已兑换 "
+      }
+    },
+    "transfer": {
+      "name": "转账",
+      "quick_action_text": "转账",
+      "full_name": "收款人昵称",
+      "friend_email_address": "收款人电子邮箱",
+      "confirm_button": "确认转账",
+      "add_button": "+",
+      "add_label": "添加",
+      "errors": {
+        "accountId": "请选择账户",
+        "toUserName": "请输入收款人昵称",
+        "toUserNameExists": "收款人昵称不存在",
+        "toUserEmailExists": "收款人邮箱不存在",
+        "toUserEmail": "请输入收款人电子邮箱",
+        "amount": "请输入金额",
+        "tos": "请接受条款与细则",
+        "general": "无法转账，请稍后重试！"
+      },
+      "successMessage": {
+        "purchase_title": "转账成功！",
+        "purchase_message": "已转账 "
+      }
+    },
+    "purchase": {
+      "name": "投资",
+      "unlock_date": "锁定至"
+    },
+    "history": {
+      "recent_order": "最近操作",
+      "empty": "暂无操作记录",
+      "name": "交易历史",
+      "from": "转出",
+      "to": "转入",
+      "success": "成功",
+      "pending": "处理中",
+      "declined": "失败",
+      "back_button": "返回",
+      "view_more": "查看更多"
+    }
+  },
+  "contact_support": {
+    "title": "请添加微信客服"
+  }
+}

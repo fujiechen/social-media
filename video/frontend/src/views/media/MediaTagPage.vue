@@ -1,0 +1,148 @@
+<script setup>
+import {onMounted, ref} from "vue";
+import {useRoute} from "vue-router";
+import MediaList2 from "@/components/MediaList2";
+import { getTag } from "@/services/tag";
+import { fetchMediaList } from "@/services/media";
+import { showFailToast } from "vant";
+
+const route = useRoute();
+
+const media = ref({
+  list: [],
+  currentPage: 1,
+  loading: false,
+  finished: false,
+});
+
+const tag = ref({});
+const tagLoading = ref(true);
+
+const active = ref('all');
+const tabs = [
+  { title: '全部', value: 'all' },
+  { title: '视频', value: 'Video' },
+  { title: '图册', value: 'Album' },
+  { title: '合集', value: 'Series' },
+];
+
+const sort = ref('default');
+const sortOptions = [
+  { text: '默认排序', value: 'default' },
+  { text: '点赞排序', value: 'likes' },
+  { text: '收藏排序', value: 'favorites' },
+  { text: '评论排序', value: 'comments' },
+];
+
+const loadMediaList = async () => {
+  media.value.loading = true;
+
+  try {
+    const params = {
+      page: media.value.currentPage++,
+      per_page: 10,
+      'tag_ids[]': route.params.id,
+    };
+    if (active.value !== 'all') {
+      params['types[]'] = active.value;
+    }
+    if (sort.value !== 'default') {
+      params[`order_bys[${sort.value}]`] = 'desc';
+    }
+    const response = await fetchMediaList(params);
+    media.value.finished = response.meta.pagination.current_page >= response.meta.pagination.total_pages;
+    media.value.list = [
+      ...media.value.list,
+      ...response.data,
+    ];
+  } catch (e) {
+    showFailToast('无法获取媒体列表，请稍后重试！');
+    media.value.finished = true;
+  }
+
+  media.value.loading = false;
+};
+
+onMounted(async () => {
+  tag.value = await getTag(route.params.id);
+  tagLoading.value = false;
+
+  await loadMediaList();
+});
+
+const onClickTab = async () => {
+  media.value.list = [];
+  media.value.currentPage = 1;
+
+  await loadMediaList();
+};
+
+const onSortChange = async () => {
+  media.value.currentPage = 1;
+  media.value.list = [];
+  await loadMediaList();
+};
+
+</script>
+
+<template>
+  <van-space direction="vertical" fill>
+    <van-skeleton
+      :loading="tagLoading"
+      title
+      :row="5"
+    />
+    <van-card
+      v-if="!tagLoading"
+      class="tag-name-container"
+      :title="tag.name"
+      desc="标签"
+    />
+    <van-dropdown-menu>
+      <van-dropdown-item v-model="sort" :options="sortOptions" @change="onSortChange"  />
+    </van-dropdown-menu>
+    <van-tabs
+      v-model:active="active"
+      @click-tab="onClickTab"
+    >
+      <van-tab
+        v-for="tab in tabs"
+        :key="tab.value"
+        :title="tab.title"
+        :name="tab.value"
+      >
+        <MediaList2
+          :medias="media.list"
+          :loading="media.loading"
+          :has-more-pages="!media.finished"
+          :load-next-page="loadMediaList"
+        />
+      </van-tab>
+    </van-tabs>
+  </van-space>
+</template>
+<style>
+.tag-name-container .van-card__content {
+  justify-content: center;
+}
+
+.tag-name-container .van-card__desc {
+  font-size: 1rem;
+  line-height: 1rem;
+  text-align: center;
+  margin-top: .5rem;
+}
+
+.tag-name-container .van-card__title {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.tag-name-container .van-card__title::before {
+  content: '#';
+  color: #6190c9;
+  font-weight: 400;
+  margin-right: 1px;
+}
+</style>

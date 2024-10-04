@@ -1,0 +1,377 @@
+{
+  "app_name": "Warner Wealth",
+  "hello": "Bonjour",
+  "back_button": "Retourner",
+  "page_title": {
+    "sign_in": "S'identifier"
+  },
+  "not_found": {
+    "title": "PAGE NON TROUVÉE",
+    "line1": "La page demandée est introuvable.",
+    "line2": "Il peut s'agir d'une faute d'orthographe dans l'URL ou d'une page supprimée.",
+    "back_home_button": "De retour à la maison"
+  },
+  "footer_bar": {
+    "home": "Domicile",
+    "market": "Marché",
+    "asset": "Actif",
+    "invest": "Investir",
+    "account": "Compte"
+  },
+  "sign_in": {
+    "login_to_your_account": "Connectez-vous à votre compte.",
+    "username_label": "Adresse e-mail",
+    "required": "(obligatoire)",
+    "password_label": "Mot de passe",
+    "remember_this_account": "Souvenez-vous de ce compte",
+    "sign_in_button": "S'IDENTIFIER",
+    "forgot_password": "Mot de passe oublié?",
+    "create_account": "Créer un compte",
+    "errors": {
+      "missing_username": "L'adresse e-mail est manquante",
+      "missing_password": "Le mot de passe est manquant",
+      "general": "Mauvais e-mail ou mot de passe !"
+    }
+  },
+  "recovery": {
+    "title": "Récupérer votre compte",
+    "email_label": "Adresse e-mail",
+    "required": "(obligatoire)",
+    "send_recovery_instructions_button": "Envoyer les instructions de récupération",
+    "sign_in_account": "Se connecter Compte",
+    "create_account": "Créer un compte"
+  },
+  "sign_up": {
+    "title": "Créer un compte",
+    "nickname_label": "Nom complet",
+    "required": "(obligatoire)",
+    "email_label": "Adresse e-mail",
+    "first_password_label": "Choisissez un mot de passe",
+    "second_password_label": "Confirmez le mot de passe",
+    "create_account": "Créer un compte",
+    "forgot_password": "Mot de passe oublié?",
+    "sign_in_account": "Se connecter Compte",
+    "agree_term_wording": "je suis d'accord avec le",
+    "term_name": "Termes et conditions",
+    "errors": {
+      "missing_name": "Le nom complet est manquant",
+      "missing_email": "L'adresse e-mail est manquante",
+      "missing_password": "Le mot de passe est manquant",
+      "missing_password_confirm": "Le mot de passe confirmé est manquant",
+      "password_not_same": "Le mot de passe doit être le même que le mot de passe confirmé",
+      "accept_toc": "Veuillez accepter les conditions d'utilisation",
+      "general": "Impossible de s'inscrire pour le moment, veuillez réessayer plus tard !"
+    }
+  },
+  "termAndConditions": {
+    "name": "Termes et conditions"
+  },
+  "home": {
+    "suggest_product": {
+      "title": "Suggérer des produits",
+      "min_require": "Minimum {x} requis",
+      "freeze_days": "Gelé pendant {n} jours | Congelé pendant {n} jour | Congelé pendant {n} jours",
+      "estimate_rate": "Estimation du rendement total annualisé {x}",
+      "total_asset": "Actif total {x}",
+      "empty": "Aucune suggestion de produit disponible"
+    },
+    "suggest_invest": {
+      "title": "Investissement",
+      "view_all": "Voir tout",
+      "empty": "Aucune suggestion d'investissement disponible",
+      "frozen_days": "Gelé pendant {n} jours | Congelé pendant {n} jour | Congelé pendant {n} jours"
+    }
+  },
+  "market": {
+    "name": "Marché",
+    "no_investment": "Pas encore d'investissement",
+    "action_sheet": {
+      "purchase_product": "Investir",
+      "account_type": "Type de compte",
+      "product_name": "Nom du produit",
+      "amount": "Montant",
+      "currency": "Monnaie",
+      "min_require": "Minimum {x} requis",
+      "freeze_days": "Gelé pendant {n} jours | Congelé pendant {n} jour | Congelé pendant {n} jours",
+      "estimate_rate": "Estimation du rendement total annualisé {x}",
+      "total_asset": "Actif total {x}",
+      "avail_fund": "Solde",
+      "fund_fact_sheet": "Fiche d'information du fonds",
+      "prospectus": "Prospectus",
+      "account_num": "Compte #",
+      "pre_accept_tos": "J'accepte le",
+      "tos": "Termes et conditions",
+      "confirm_button": "Confirmer l'achat",
+      "login_button": "Connexion",
+      "errors": {
+        "get_product": "Impossible d'obtenir des informations sur le produit pour le moment, veuillez réessayer plus tard",
+        "get_account": "Impossible d'obtenir les informations sur le compte pour le moment, veuillez réessayer plus tard",
+        "amount": "Le montant est manquant",
+        "tos": "Veuillez accepter les conditions d'utilisation",
+        "general_purchase": "Impossible d'acheter ce produit pour le moment, veuillez réessayer plus tard"
+      }
+    }
+  },
+  "invest": {
+    "name": "Investir",
+    "my_investment": "Mon investissement",
+    "no_investment": "Aucun enregistrement d'achat de produit pour le moment",
+    "balance_label": "Votre solde",
+    "account": "Compte",
+    "product_list": {
+      "unlock_date": "Jusqu'à"
+    },
+    "action_sheet": {
+      "title": "Retours sur investissement",
+      "back_button": "Retour à investir",
+      "view_more": "Voir plus",
+      "empty": "Aucun retour sur investissement disponible",
+      "book_cost": "Coût du livre",
+      "market_value": "Valeur marchande"
+    },
+    "successMessage": {
+      "purchase_title": "Achat réussi !",
+      "purchase_message": "Acheté"
+    }
+  },
+  "account": {
+    "name": "Compte",
+    "information": "Renseignements personnels",
+    "info_title": "Information",
+    "your_address": "Vos adresses de retrait",
+    "your_bank_account": "Vos comptes bancaires de retrait",
+    "required": "(obligatoire)",
+    "optional": "(optionnel)",
+    "personal_info": "Renseignements personnels",
+    "username": "Nom d'utilisateur",
+    "email": "Adresse e-mail",
+    "nickname": "Nom",
+    "phone_number": "Numéro de téléphone",
+    "language": "langue préférée",
+    "social_network": "Réseau social",
+    "telegram": "Télégramme",
+    "whatsapp": "WhatsApp",
+    "facebook": "Facebook",
+    "account_security": "Sécurité du compte",
+    "current_password": "Mot de passe actuel",
+    "new_password": "nouveau mot de passe",
+    "new_password_confirm": "Confirmez le mot de passe",
+    "apply_button": "Appliquer les paramètres",
+    "contact_support": "Contactez le support",
+    "sign_out": "Se déconnecter",
+    "success": "Mise à jour réussie!",
+    "errors": {
+      "missing_name": "Le nom est manquant",
+      "missing_email": "L'e-mail est manquant",
+      "missing_phone": "Le téléphone est manquant",
+      "missing_old_password": "Le mot de passe actuel est manquant",
+      "missing_new_password": "Le nouveau mot de passe est manquant",
+      "missing_password_confirm": "Le mot de passe confirmé est manquant",
+      "password_not_same": "Le mot de passe doit être le même que le mot de passe confirmé",
+      "general_get": "Impossible d'obtenir des données pour le moment, veuillez réessayer plus tard",
+      "general_update": "Impossible de mettre à jour les données pour le moment, veuillez réessayer plus tard"
+    },
+    "address_manage": {
+      "no_address": "Aucune adresse pour le moment",
+      "name": "Gérer les adresses",
+      "title": "Adresses",
+      "subtitle": "Adresses de retrait",
+      "create_new_address": "Créer une nouvelle adresse",
+      "edit_address": "Modifier l'adresse",
+      "delete_address": "Êtes-vous sûr de supprimer ?",
+      "name_label": "Nom",
+      "phone_label": "Numéro de téléphone",
+      "address_label": "Adresse",
+      "country_label": "Pays",
+      "province_label": "Province",
+      "city_label": "Ville",
+      "zip_label": "Zipper",
+      "comment": "Commenter",
+      "create": "Créer",
+      "edit": "Sauver",
+      "delete": "Supprimer",
+      "errors": {
+        "missing_name": "Le nom est manquant",
+        "missing_address": "L'adresse est manquante",
+        "missing_phone": "Le téléphone est manquant",
+        "missing_country": "Le pays est manquant",
+        "missing_province": "Province manquante",
+        "missing_city": "La ville manque",
+        "missing_zip": "Le code postal est manquant",
+        "general_create": "Impossible de créer l'adresse pour le moment, veuillez réessayer plus tard",
+        "general_edit": "Impossible de créer l'adresse pour le moment, veuillez réessayer plus tard",
+        "general_delete": "Impossible de créer l'adresse pour le moment, veuillez réessayer plus tard"
+      }
+    },
+    "bank_manage": {
+      "no_accounts": "Aucun compte bancaire de retrait pour le moment",
+      "name": "Gérer les comptes bancaires",
+      "title": "Comptes bancaires",
+      "subtitle": "Comptes bancaires de retrait",
+      "create_new_bank": "Créer un nouveau compte bancaire",
+      "edit_bank": "Modifier le compte bancaire",
+      "delete_bank": "Êtes-vous sûr de supprimer ?",
+      "name_label": "Nom",
+      "account_number_label": "Numéro de compte",
+      "bank_address_label": "Adresse de la banque",
+      "bank_name_label": "Nom de banque",
+      "transit_code_label": "Code de transit",
+      "branch_code_label": "Indicatif de succursale",
+      "swift_label": "Code rapide",
+      "comment": "Commenter",
+      "create": "Créer",
+      "edit": "Sauver",
+      "delete": "Supprimer",
+      "errors": {
+        "missing_name": "Le nom est manquant",
+        "missing_accountNumber": "Le numéro de compte est manquant",
+        "missing_bankName": "Le nom de la banque est manquant",
+        "missing_bankAddress": "L'adresse de la banque est manquante",
+        "missing_branchCode": "Le code de succursale est manquant",
+        "missing_transitCode": "Le code de transit est manquant",
+        "missing_swift": "Swift a disparu",
+        "general_create": "Impossible de créer un compte bancaire pour le moment, veuillez réessayer plus tard",
+        "general_edit": "Impossible de créer un compte bancaire pour le moment, veuillez réessayer plus tard",
+        "general_delete": "Impossible de créer un compte bancaire pour le moment, veuillez réessayer plus tard"
+      }
+    }
+  },
+  "asset": {
+    "name": "Actif",
+    "pre_accept_tos": "J'accepte le",
+    "tos": "Termes et conditions",
+    "required": "(obligatoire)",
+    "account_label": "Compte",
+    "account": "Compte",
+    "account_number_label": "Numéro de compte",
+    "choose_account_label": "Choisissez un compte",
+    "bank_account_label": "Compte bancaire",
+    "amount_label": "Montant",
+    "currency": "Monnaie",
+    "switch_account": "Changer de compte",
+    "avail_balance": "Solde",
+    "avail_fund": "Solde",
+    "account_num": "Compte #",
+    "comment": "Commenter",
+    "errors": {
+      "get_account": "Impossible d'obtenir les informations sur le compte pour le moment, veuillez réessayer plus tard"
+    },
+    "select_card": {
+      "name": "Sélectionnez un compte"
+    },
+    "recent_trans": {
+      "name": "Transactions",
+      "last": "Durer",
+      "days": "jours",
+      "total_income": "Revenu total",
+      "total_expense": "Dépense totale",
+      "empty": "Aucune transaction récente disponible",
+      "error_get_account": "Impossible de trouver une transaction, veuillez d'abord choisir un compte sur la page Actif"
+    },
+    "deposit": {
+      "name": "Verser",
+      "account": "Compte de dépôt",
+      "bank_number_label": "Compte bancaire de dépôt",
+      "confirm_button": "FONDS DE DÉPÔT",
+      "confirm_stripe_pay": "Confirmer le paiement",
+      "errors": {
+        "amount": "Le montant est manquant",
+        "tos": "Veuillez accepter les conditions d'utilisation",
+        "general": "Impossible de déposer ce produit pour le moment, veuillez réessayer plus tard"
+      },
+      "successMessage": {
+        "purchase_title": "Dépôt réussi !",
+        "purchase_message": "Déposé"
+      }
+    },
+    "withdrawal": {
+      "name": "Retrait",
+      "choose_withdrawal_type": "Choisissez le type de retrait",
+      "choose_address": "Choisissez l'adresse",
+      "choose_bank": "Choisissez un compte bancaire",
+      "manage_address": "Gérer les adresses",
+      "manage_bank": "Gérer le compte bancaire",
+      "type_cash": "Espèces",
+      "type_wired": "Filaire",
+      "confirm_button": "FONDS DE RETRAIT",
+      "errors": {
+        "accountId": "Veuillez choisir un compte",
+        "addressId": "Veuillez choisir l'adresse",
+        "bankId": "Veuillez choisir un compte bancaire",
+        "amount": "Le montant est manquant",
+        "tos": "Veuillez accepter les conditions d'utilisation",
+        "general": "Impossible de retirer pour le moment, veuillez réessayer plus tard"
+      },
+      "successMessage": {
+        "purchase_title": "Retrait réussi !",
+        "purchase_message": "Retirer"
+      }
+    },
+    "exchange": {
+      "name": "Échanger",
+      "confirm_button": "Convertir et ajouter au compte",
+      "from_account": "Du compte",
+      "from_amount": "Montant de l'échange",
+      "to_account": "Estimer",
+      "rate": "Taux de change",
+      "to_amount": "Le montant final",
+      "errors": {
+        "getExchangeInfo": "Impossible d'obtenir des informations sur l'échange pour le moment, veuillez réessayer plus tard",
+        "fromAccountId": "Veuillez choisir Du compte",
+        "toAccountId": "Veuillez choisir Vers le compte",
+        "amount": "Le montant est manquant",
+        "tos": "Veuillez accepter les conditions d'utilisation",
+        "general": "Impossible d'échanger pour le moment, veuillez réessayer plus tard"
+      },
+      "successMessage": {
+        "purchase_title": "Échange réussi !",
+        "purchase_message": "échangé"
+      }
+    },
+    "transfer": {
+      "name": "Transférer",
+      "quick_action_text": "Transférer de l'argent",
+      "full_name": "Nom complet du destinataire",
+      "friend_email_address": "Adresse e-mail du destinataire",
+      "confirm_button": "TRANSFERT À UN AMI",
+      "add_button": "+",
+      "add_label": "Ajouter",
+      "errors": {
+        "accountId": "Veuillez choisir un compte",
+        "toUserName": "Le nom complet du destinataire est manquant",
+        "toUserEmail": "L'adresse e-mail du destinataire est manquante",
+        "amount": "Le montant est manquant",
+        "tos": "Veuillez accepter les conditions d'utilisation",
+        "general": "Impossible de transférer pour le moment, veuillez réessayer plus tard"
+      },
+      "successMessage": {
+        "purchase_title": "Transfert réussi !",
+        "purchase_message": "Transféré"
+      }
+    },
+    "purchase": {
+      "name": "Acheter",
+      "unlock_date": "Congelé jusqu'à"
+    },
+    "history": {
+      "recent_order": "Activités récentes",
+      "empty": "Pas encore d'activités récentes",
+      "name": "Histoire",
+      "from": "Depuis",
+      "to": "Pour",
+      "success": "SUCCÈS",
+      "pending": "EN ATTENDANT",
+      "declined": "DIMINUÉ",
+      "back_button": "ARRIÈRE",
+      "view_more": "Voir plus"
+    }
+  },
+  "contact_support": {
+    "success_message": "Demande d'assistance envoyée avec succès !",
+    "failed_message": "Impossible de soumettre une demande d'assistance pour le moment, veuillez réessayer plus tard",
+    "missing_comment": "Veuillez remplir la demande d'assistance",
+    "title": "Contactez le support",
+    "detail_label": "Coordonnées",
+    "send_button": "Envoyer"
+  }
+}

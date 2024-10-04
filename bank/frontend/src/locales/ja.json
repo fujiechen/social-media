@@ -1,0 +1,377 @@
+{
+  "app_name": "Warner Wealth",
+  "hello": "こんにちは",
+  "back_button": "戻る",
+  "page_title": {
+    "sign_in": "サインイン"
+  },
+  "not_found": {
+    "title": "ページが見つかりません",
+    "line1": "リクエストされたページが見つかりませんでした。",
+    "line2": "これは、URLのスペルミスまたは削除されたページである可能性があります。",
+    "back_home_button": "家に帰る"
+  },
+  "footer_bar": {
+    "home": "家",
+    "market": "市場",
+    "asset": "資産",
+    "invest": "投資",
+    "account": "アカウント"
+  },
+  "sign_in": {
+    "login_to_your_account": "あなたのアカウントにログイン。",
+    "username_label": "電子メールアドレス",
+    "required": "（必要）",
+    "password_label": "パスワード",
+    "remember_this_account": "このアカウントを覚えておいてください",
+    "sign_in_button": "サインイン",
+    "forgot_password": "パスワードをお忘れですか？",
+    "create_account": "アカウントを作成する",
+    "errors": {
+      "missing_username": "メールアドレスがありません",
+      "missing_password": "パスワードがありません",
+      "general": "メールアドレスもしくはパスワードが間違っています！"
+    }
+  },
+  "recovery": {
+    "title": "アカウントを回復する",
+    "email_label": "電子メールアドレス",
+    "required": "（必要）",
+    "send_recovery_instructions_button": "回復手順を送信する",
+    "sign_in_account": "サインインアカウント",
+    "create_account": "アカウントを作成する"
+  },
+  "sign_up": {
+    "title": "アカウントを作成する",
+    "nickname_label": "フルネーム",
+    "required": "（必要）",
+    "email_label": "電子メールアドレス",
+    "first_password_label": "パスワードを選ぶ",
+    "second_password_label": "パスワードを認証する",
+    "create_account": "アカウントを作成する",
+    "forgot_password": "パスワードをお忘れですか？",
+    "sign_in_account": "サインインアカウント",
+    "agree_term_wording": "私は同意します",
+    "term_name": "規約と条件",
+    "errors": {
+      "missing_name": "フルネームがありません",
+      "missing_email": "メールアドレスがありません",
+      "missing_password": "パスワードがありません",
+      "missing_password_confirm": "確認済みのパスワードがありません",
+      "password_not_same": "パスワードは確認済みのパスワードと同じである必要があります",
+      "accept_toc": "利用規約に同意してください",
+      "general": "現在登録できません。しばらくしてからお試しください。"
+    }
+  },
+  "termAndConditions": {
+    "name": "規約と条件"
+  },
+  "home": {
+    "suggest_product": {
+      "title": "製品を提案する",
+      "min_require": "最小{x}が必要",
+      "freeze_days": "{n}日間凍結| {n}日間凍結| {n}日間凍結",
+      "estimate_rate": "年間{x}トータルリターンは推定",
+      "total_asset": "総資産{x}",
+      "empty": "利用可能な提案製品はありません"
+    },
+    "suggest_invest": {
+      "title": "投資",
+      "view_all": "すべて表示",
+      "empty": "利用可能な投資の提案はありません",
+      "frozen_days": "{n}日間凍結| {n}日間凍結| {n}日間凍結"
+    }
+  },
+  "market": {
+    "name": "市場",
+    "no_investment": "まだ投資はありません",
+    "action_sheet": {
+      "purchase_product": "投資",
+      "account_type": "口座の種類",
+      "product_name": "商品名",
+      "amount": "額",
+      "currency": "通貨",
+      "min_require": "最小{x}が必要",
+      "freeze_days": "{n}日間凍結| {n}日間凍結| {n}日間凍結",
+      "estimate_rate": "年間{x}トータルリターンは推定",
+      "total_asset": "総資産{x}",
+      "avail_fund": "バランス",
+      "fund_fact_sheet": "ファンドファクトシート",
+      "prospectus": "目論見書",
+      "account_num": "アカウント ＃",
+      "pre_accept_tos": "私は受け入れます",
+      "tos": "規約と条件",
+      "confirm_button": "購入を確認します",
+      "login_button": "ログイン",
+      "errors": {
+        "get_product": "現在、製品情報を取得できません。しばらくしてからお試しください",
+        "get_account": "現在、アカウント情報を取得できません。しばらくしてからお試しください",
+        "amount": "金額がありません",
+        "tos": "利用規約に同意してください",
+        "general_purchase": "現在、この商品は購入できません。しばらくしてからお試しください"
+      }
+    }
+  },
+  "invest": {
+    "name": "投資",
+    "my_investment": "私の投資",
+    "no_investment": "製品購入記録はまだありません",
+    "balance_label": "あなたのバランス",
+    "account": "アカウント",
+    "product_list": {
+      "unlock_date": "それまで"
+    },
+    "action_sheet": {
+      "title": "投資収益率",
+      "back_button": "投資に戻る",
+      "view_more": "もっと見る",
+      "empty": "投資収益はありません",
+      "book_cost": "書籍の費用",
+      "market_value": "市場価格"
+    },
+    "successMessage": {
+      "purchase_title": "購入に成功しました！",
+      "purchase_message": "購入した"
+    }
+  },
+  "account": {
+    "name": "アカウント",
+    "information": "個人情報",
+    "info_title": "情報",
+    "your_address": "あなたの撤退アドレス",
+    "your_bank_account": "あなたの引き出し銀行口座",
+    "required": "（必要）",
+    "optional": "（オプション）",
+    "personal_info": "個人情報",
+    "username": "ユーザー名",
+    "email": "電子メールアドレス",
+    "nickname": "名前",
+    "phone_number": "電話番号",
+    "language": "優先言語",
+    "social_network": "ソーシャルネットワーク",
+    "telegram": "電報",
+    "whatsapp": "Whatsapp",
+    "facebook": "フェイスブック",
+    "account_security": "アカウントのセキュリティ",
+    "current_password": "現在のパスワード",
+    "new_password": "新しいパスワード",
+    "new_password_confirm": "パスワードを認証する",
+    "apply_button": "設定を適用する",
+    "contact_support": "サポート問い合わせ先",
+    "sign_out": "サインアウト",
+    "success": "更新に成功！",
+    "errors": {
+      "missing_name": "名前がありません",
+      "missing_email": "メールがありません",
+      "missing_phone": "電話がありません",
+      "missing_old_password": "現在のパスワードがありません",
+      "missing_new_password": "新しいパスワードがありません",
+      "missing_password_confirm": "確認済みのパスワードがありません",
+      "password_not_same": "パスワードは確認済みのパスワードと同じである必要があります",
+      "general_get": "現在データを取得できません。しばらくしてから再試行してください",
+      "general_update": "現在、データを更新できません。後で再試行してください"
+    },
+    "address_manage": {
+      "no_address": "まだ住所はありません",
+      "name": "アドレスを管理する",
+      "title": "住所",
+      "subtitle": "撤退アドレス",
+      "create_new_address": "新しいアドレスを作成する",
+      "edit_address": "アドレスの編集",
+      "delete_address": "削除してもよろしいですか？",
+      "name_label": "名前",
+      "phone_label": "電話番号",
+      "address_label": "住所",
+      "country_label": "国",
+      "province_label": "州",
+      "city_label": "街",
+      "zip_label": "ジップ",
+      "comment": "コメント",
+      "create": "作成",
+      "edit": "保存する",
+      "delete": "消去",
+      "errors": {
+        "missing_name": "名前がありません",
+        "missing_address": "アドレスがありません",
+        "missing_phone": "電話がありません",
+        "missing_country": "国がありません",
+        "missing_province": "州がありません",
+        "missing_city": "都市がありません",
+        "missing_zip": "Zipがありません",
+        "general_create": "現在アドレスを作成できません。後で再試行してください",
+        "general_edit": "現在アドレスを作成できません。後で再試行してください",
+        "general_delete": "現在アドレスを作成できません。後で再試行してください"
+      }
+    },
+    "bank_manage": {
+      "no_accounts": "まだ引き出し銀行口座はありません",
+      "name": "銀行口座の管理",
+      "title": "銀行口座",
+      "subtitle": "引き出し銀行口座",
+      "create_new_bank": "新しい銀行口座を作成する",
+      "edit_bank": "銀行口座を編集する",
+      "delete_bank": "削除してもよろしいですか？",
+      "name_label": "名前",
+      "account_number_label": "口座番号",
+      "bank_address_label": "銀行の住所",
+      "bank_name_label": "銀行名",
+      "transit_code_label": "トランジットコード",
+      "branch_code_label": "支店コード",
+      "swift_label": "スウィフトコード",
+      "comment": "コメント",
+      "create": "作成",
+      "edit": "保存する",
+      "delete": "消去",
+      "errors": {
+        "missing_name": "名前がありません",
+        "missing_accountNumber": "アカウント番号がありません",
+        "missing_bankName": "銀行名がありません",
+        "missing_bankAddress": "銀行の住所がありません",
+        "missing_branchCode": "ブランチコードがありません",
+        "missing_transitCode": "トランジットコードがありません",
+        "missing_swift": "Swiftがありません",
+        "general_create": "現在、銀行口座を作成できません。しばらくしてからもう一度お試しください",
+        "general_edit": "現在、銀行口座を作成できません。しばらくしてからもう一度お試しください",
+        "general_delete": "現在、銀行口座を作成できません。しばらくしてからもう一度お試しください"
+      }
+    }
+  },
+  "asset": {
+    "name": "資産",
+    "pre_accept_tos": "私は受け入れます",
+    "tos": "規約と条件",
+    "required": "（必要）",
+    "account_label": "アカウント",
+    "account": "アカウント",
+    "account_number_label": "口座番号",
+    "choose_account_label": "アカウントを選択",
+    "bank_account_label": "銀行口座",
+    "amount_label": "額",
+    "currency": "通貨",
+    "switch_account": "アカウントの切り替え",
+    "avail_balance": "バランス",
+    "avail_fund": "バランス",
+    "account_num": "アカウント ＃",
+    "comment": "コメント",
+    "errors": {
+      "get_account": "現在、アカウント情報を取得できません。しばらくしてからお試しください"
+    },
+    "select_card": {
+      "name": "アカウントを選択"
+    },
+    "recent_trans": {
+      "name": "トランザクション",
+      "last": "最後",
+      "days": "日々",
+      "total_income": "総収入",
+      "total_expense": "総経費",
+      "empty": "最近の取引はありません",
+      "error_get_account": "取引が見つかりません。最初にアセットページでアカウントを選択してください"
+    },
+    "deposit": {
+      "name": "預り金",
+      "account": "預金口座",
+      "bank_number_label": "預金銀行口座",
+      "confirm_button": "預金資金",
+      "confirm_stripe_pay": "支払いの確認",
+      "errors": {
+        "amount": "金額がありません",
+        "tos": "利用規約に同意してください",
+        "general": "現在、この商品を入金できません。しばらくしてからお試しください"
+      },
+      "successMessage": {
+        "purchase_title": "入金に成功しました！",
+        "purchase_message": "預け入れ"
+      }
+    },
+    "withdrawal": {
+      "name": "撤退",
+      "choose_withdrawal_type": "引き出しタイプを選択",
+      "choose_address": "住所を選択",
+      "choose_bank": "銀行口座を選択",
+      "manage_address": "アドレスを管理する",
+      "manage_bank": "銀行口座の管理",
+      "type_cash": "現金",
+      "type_wired": "有線",
+      "confirm_button": "引き出し資金",
+      "errors": {
+        "accountId": "アカウントを選択してください",
+        "addressId": "住所をお選びください",
+        "bankId": "銀行口座を選択してください",
+        "amount": "金額がありません",
+        "tos": "利用規約に同意してください",
+        "general": "現時点では撤回できません。しばらくしてからお試しください"
+      },
+      "successMessage": {
+        "purchase_title": "成功した撤退！",
+        "purchase_message": "撤退"
+      }
+    },
+    "exchange": {
+      "name": "交換",
+      "confirm_button": "変換してアカウントに追加",
+      "from_account": "アカウントから",
+      "from_amount": "交換金額",
+      "to_account": "アカウントへ",
+      "rate": "為替レート",
+      "to_amount": "最終金額",
+      "errors": {
+        "getExchangeInfo": "現在、交換情報を取得できません。しばらくしてからお試しください",
+        "fromAccountId": "アカウントから選択してください",
+        "toAccountId": "アカウントを選択してください",
+        "amount": "金額がありません",
+        "tos": "利用規約に同意してください",
+        "general": "現在交換できません。しばらくしてからお試しください"
+      },
+      "successMessage": {
+        "purchase_title": "交換に成功しました！",
+        "purchase_message": "交換"
+      }
+    },
+    "transfer": {
+      "name": "移行",
+      "quick_action_text": "送金",
+      "full_name": "レシーバーのフルネーム",
+      "friend_email_address": "受信者の電子メールアドレス",
+      "confirm_button": "友達に転送する",
+      "add_button": "+",
+      "add_label": "追加",
+      "errors": {
+        "accountId": "アカウントを選択してください",
+        "toUserName": "受信者のフルネームがありません",
+        "toUserEmail": "受信者のメールアドレスがありません",
+        "amount": "金額がありません",
+        "tos": "利用規約に同意してください",
+        "general": "現在転送できません。しばらくしてからお試しください"
+      },
+      "successMessage": {
+        "purchase_title": "転送に成功しました！",
+        "purchase_message": "転送"
+      }
+    },
+    "purchase": {
+      "name": "購入",
+      "unlock_date": "まで凍結"
+    },
+    "history": {
+      "recent_order": "最近の活動",
+      "empty": "最近の活動はまだありません",
+      "name": "歴史",
+      "from": "から",
+      "to": "に",
+      "success": "成功",
+      "pending": "保留中",
+      "declined": "辞退",
+      "back_button": "戻る",
+      "view_more": "もっと見る"
+    }
+  },
+  "contact_support": {
+    "success_message": "サポートリクエストが正常に送信されました。",
+    "failed_message": "現在、サポートリクエストを送信できません。しばらくしてから再試行してください",
+    "missing_comment": "サポートリクエストに記入してください",
+    "title": "サポート問い合わせ先",
+    "detail_label": "連絡先の詳細",
+    "send_button": "送信"
+  }
+}

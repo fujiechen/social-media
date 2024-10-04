@@ -1,0 +1,377 @@
+{
+  "app_name": "Warner Wealth",
+  "hello": "Hola",
+  "back_button": "Regresa",
+  "page_title": {
+    "sign_in": "Iniciar sesión"
+  },
+  "not_found": {
+    "title": "PÁGINA NO ENCONTRADA",
+    "line1": "No se pudo encontrar la página solicitada.",
+    "line2": "Esto podría ser un error ortográfico en la URL o una página eliminada.",
+    "back_home_button": "De vuelta a casa"
+  },
+  "footer_bar": {
+    "home": "Casa",
+    "market": "Mercado",
+    "asset": "Activo",
+    "invest": "Invertir",
+    "account": "Cuenta"
+  },
+  "sign_in": {
+    "login_to_your_account": "Ingrese a su cuenta.",
+    "username_label": "Dirección de correo electrónico",
+    "required": "(requerido)",
+    "password_label": "Clave",
+    "remember_this_account": "Recuerda esta cuenta",
+    "sign_in_button": "INICIAR SESIÓN",
+    "forgot_password": "¿Has olvidado tu contraseña?",
+    "create_account": "Crear una cuenta",
+    "errors": {
+      "missing_username": "Falta la dirección de correo electrónico",
+      "missing_password": "falta la contraseña",
+      "general": "¡Correo o contraseña equivocada!"
+    }
+  },
+  "recovery": {
+    "title": "Recupera tu Cuenta",
+    "email_label": "Dirección de correo electrónico",
+    "required": "(requerido)",
+    "send_recovery_instructions_button": "Enviar instrucciones de recuperación",
+    "sign_in_account": "Iniciar sesión Cuenta",
+    "create_account": "Crear una cuenta"
+  },
+  "sign_up": {
+    "title": "Crea una cuenta",
+    "nickname_label": "Nombre completo",
+    "required": "(requerido)",
+    "email_label": "Dirección de correo electrónico",
+    "first_password_label": "Elegir una contraseña",
+    "second_password_label": "confirmar Contraseña",
+    "create_account": "Crear una cuenta",
+    "forgot_password": "¿Has olvidado tu contraseña?",
+    "sign_in_account": "Iniciar sesión Cuenta",
+    "agree_term_wording": "estoy de acuerdo con el",
+    "term_name": "Términos y condiciones",
+    "errors": {
+      "missing_name": "Falta el nombre completo",
+      "missing_email": "Falta la dirección de correo electrónico",
+      "missing_password": "falta la contraseña",
+      "missing_password_confirm": "Falta la contraseña confirmada",
+      "password_not_same": "La contraseña debe ser la misma que la contraseña confirmada",
+      "accept_toc": "Por favor acepte el Término de la Condición",
+      "general": "No se puede registrar en este momento, intente más tarde!"
+    }
+  },
+  "termAndConditions": {
+    "name": "Términos y condiciones"
+  },
+  "home": {
+    "suggest_product": {
+      "title": "Sugerir productos",
+      "min_require": "Mínimo {x} requerido",
+      "freeze_days": "Congelado durante {n} días | Congelado durante {n} día | Congelado durante {n} días",
+      "estimate_rate": "Retorno total anualizado {x} estimado",
+      "total_asset": "Activo total {x}",
+      "empty": "Ningún producto sugerido disponible"
+    },
+    "suggest_invest": {
+      "title": "Inversión",
+      "view_all": "Ver todo",
+      "empty": "No hay inversión sugerida disponible",
+      "frozen_days": "Congelado durante {n} días | Congelado durante {n} día | Congelado durante {n} días"
+    }
+  },
+  "market": {
+    "name": "Mercado",
+    "no_investment": "Sin inversión todavía",
+    "action_sheet": {
+      "purchase_product": "Invertir",
+      "account_type": "Tipo de cuenta",
+      "product_name": "nombre del producto",
+      "amount": "Monto",
+      "currency": "Divisa",
+      "min_require": "Mínimo {x} requerido",
+      "freeze_days": "Congelado durante {n} días | Congelado durante {n} día | Congelado durante {n} días",
+      "estimate_rate": "Retorno total anualizado {x} estimado",
+      "total_asset": "Activo total {x}",
+      "avail_fund": "Equilibrio",
+      "fund_fact_sheet": "Hoja de datos del fondo",
+      "prospectus": "Folleto",
+      "account_num": "Cuenta #",
+      "pre_accept_tos": "acepto el",
+      "tos": "Términos y condiciones",
+      "confirm_button": "Confirmar compra",
+      "login_button": "Acceso",
+      "errors": {
+        "get_product": "No se puede obtener información del producto en este momento, intente más tarde",
+        "get_account": "No se puede obtener la información de la cuenta en este momento, intente más tarde",
+        "amount": "falta la cantidad",
+        "tos": "Por favor acepte el Término de la Condición",
+        "general_purchase": "No se puede comprar este producto en este momento, intente más tarde"
+      }
+    }
+  },
+  "invest": {
+    "name": "Invertir",
+    "my_investment": "mi inversión",
+    "no_investment": "Aún no hay registro de compra de productos",
+    "balance_label": "Tu balance",
+    "account": "Cuenta",
+    "product_list": {
+      "unlock_date": "Hasta"
+    },
+    "action_sheet": {
+      "title": "Retornos de inversión",
+      "back_button": "Volver a invertir",
+      "view_more": "Ver más",
+      "empty": "No hay retornos de inversión disponibles",
+      "book_cost": "Costo del libro",
+      "market_value": "Valor de mercado"
+    },
+    "successMessage": {
+      "purchase_title": "Compra exitosa!",
+      "purchase_message": "comprado"
+    }
+  },
+  "account": {
+    "name": "Cuenta",
+    "information": "Informacion personal",
+    "info_title": "Información",
+    "your_address": "Sus direcciones de retiro",
+    "your_bank_account": "Sus cuentas bancarias de retiro",
+    "required": "(requerido)",
+    "optional": "(Opcional)",
+    "personal_info": "Informacion personal",
+    "username": "Nombre de usuario",
+    "email": "Dirección de correo electrónico",
+    "nickname": "Nombre",
+    "phone_number": "Número de teléfono",
+    "language": "Idioma preferido",
+    "social_network": "Red social",
+    "telegram": "Telegrama",
+    "whatsapp": "Whatsapp",
+    "facebook": "Facebook",
+    "account_security": "Seguridad de la cuenta",
+    "current_password": "contraseña actual",
+    "new_password": "Nueva contraseña",
+    "new_password_confirm": "confirmar Contraseña",
+    "apply_button": "Aplicar configuraciones",
+    "contact_support": "Soporte de contacto",
+    "sign_out": "Desconectar",
+    "success": "¡Actualización exitosa!",
+    "errors": {
+      "missing_name": "falta el nombre",
+      "missing_email": "Falta el correo electrónico",
+      "missing_phone": "falta el telefono",
+      "missing_old_password": "Falta la contraseña actual",
+      "missing_new_password": "Falta la nueva contraseña",
+      "missing_password_confirm": "Falta la contraseña confirmada",
+      "password_not_same": "La contraseña debe ser la misma que la contraseña confirmada",
+      "general_get": "No se pueden obtener datos en este momento, vuelva a intentarlo más tarde",
+      "general_update": "No se pueden actualizar los datos en este momento, vuelva a intentarlo más tarde"
+    },
+    "address_manage": {
+      "no_address": "Aún no hay direcciones",
+      "name": "Administrar direcciones",
+      "title": "direcciones",
+      "subtitle": "Direcciones de retiro",
+      "create_new_address": "Crear nueva dirección",
+      "edit_address": "Editar dirección",
+      "delete_address": "¿Estás seguro de borrar?",
+      "name_label": "Nombre",
+      "phone_label": "Número de teléfono",
+      "address_label": "Dirección",
+      "country_label": "País",
+      "province_label": "Provincia",
+      "city_label": "Ciudad",
+      "zip_label": "Cremallera",
+      "comment": "Comentario",
+      "create": "Crear",
+      "edit": "Guardar",
+      "delete": "Borrar",
+      "errors": {
+        "missing_name": "falta el nombre",
+        "missing_address": "Falta la dirección",
+        "missing_phone": "falta el telefono",
+        "missing_country": "falta el pais",
+        "missing_province": "Falta la provincia",
+        "missing_city": "falta la ciudad",
+        "missing_zip": "falta la cremallera",
+        "general_create": "No se puede crear la dirección en este momento, vuelva a intentarlo más tarde",
+        "general_edit": "No se puede crear la dirección en este momento, vuelva a intentarlo más tarde",
+        "general_delete": "No se puede crear la dirección en este momento, vuelva a intentarlo más tarde"
+      }
+    },
+    "bank_manage": {
+      "no_accounts": "Aún no hay cuentas bancarias de retiro",
+      "name": "Administrar cuentas bancarias",
+      "title": "Cuentas bancarias",
+      "subtitle": "Cuentas bancarias de retiro",
+      "create_new_bank": "Crear nueva cuenta bancaria",
+      "edit_bank": "Editar cuenta bancaria",
+      "delete_bank": "¿Estás seguro de borrar?",
+      "name_label": "Nombre",
+      "account_number_label": "Número de cuenta",
+      "bank_address_label": "Dirección del banco",
+      "bank_name_label": "Nombre del banco",
+      "transit_code_label": "Código de tránsito",
+      "branch_code_label": "Código de sucursal",
+      "swift_label": "código SWIFT",
+      "comment": "Comentario",
+      "create": "Crear",
+      "edit": "Guardar",
+      "delete": "Borrar",
+      "errors": {
+        "missing_name": "falta el nombre",
+        "missing_accountNumber": "Falta el número de cuenta",
+        "missing_bankName": "Falta el nombre del banco",
+        "missing_bankAddress": "Falta la dirección del banco",
+        "missing_branchCode": "Falta el código de sucursal",
+        "missing_transitCode": "Falta el código de tránsito",
+        "missing_swift": "Falta Swift",
+        "general_create": "No se puede crear una cuenta bancaria en este momento, vuelva a intentarlo más tarde",
+        "general_edit": "No se puede crear una cuenta bancaria en este momento, vuelva a intentarlo más tarde",
+        "general_delete": "No se puede crear una cuenta bancaria en este momento, vuelva a intentarlo más tarde"
+      }
+    }
+  },
+  "asset": {
+    "name": "Activo",
+    "pre_accept_tos": "acepto el",
+    "tos": "Términos y condiciones",
+    "required": "(requerido)",
+    "account_label": "Cuenta",
+    "account": "Cuenta",
+    "account_number_label": "Número de cuenta",
+    "choose_account_label": "Elija Cuenta",
+    "bank_account_label": "Cuenta bancaria",
+    "amount_label": "Monto",
+    "currency": "Divisa",
+    "switch_account": "Cambiar cuenta",
+    "avail_balance": "Equilibrio",
+    "avail_fund": "Equilibrio",
+    "account_num": "Cuenta #",
+    "comment": "Comentario",
+    "errors": {
+      "get_account": "No se puede obtener la información de la cuenta en este momento, intente más tarde"
+    },
+    "select_card": {
+      "name": "Seleccionar cuenta"
+    },
+    "recent_trans": {
+      "name": "Actas",
+      "last": "Ultimo",
+      "days": "dias",
+      "total_income": "Ingresos totales",
+      "total_expense": "Gasto total",
+      "empty": "No hay transacciones recientes disponibles",
+      "error_get_account": "No se puede encontrar ninguna transacción, primero elija la cuenta en la página de Activos"
+    },
+    "deposit": {
+      "name": "Depósito",
+      "account": "Cuenta de depósito",
+      "bank_number_label": "Cuenta bancaria de depósito",
+      "confirm_button": "FONDOS DE DEPÓSITO",
+      "confirm_stripe_pay": "Confirmar pago",
+      "errors": {
+        "amount": "falta la cantidad",
+        "tos": "Por favor acepte el Término de la Condición",
+        "general": "No se puede depositar este producto en este momento, intente más tarde"
+      },
+      "successMessage": {
+        "purchase_title": "¡Depósito exitoso!",
+        "purchase_message": "Depositado"
+      }
+    },
+    "withdrawal": {
+      "name": "Retiro",
+      "choose_withdrawal_type": "Elija el tipo de retiro",
+      "choose_address": "Elija la dirección",
+      "choose_bank": "Elija cuenta bancaria",
+      "manage_address": "Administrar direcciones",
+      "manage_bank": "Administrar cuenta bancaria",
+      "type_cash": "Dinero en efectivo",
+      "type_wired": "cableado",
+      "confirm_button": "FONDOS DE RETIRO",
+      "errors": {
+        "accountId": "Por favor elige cuenta",
+        "addressId": "Por favor elige la dirección",
+        "bankId": "Por favor elija cuenta bancaria",
+        "amount": "falta la cantidad",
+        "tos": "Por favor acepte el Término de la Condición",
+        "general": "No se puede retirar en este momento, intente más tarde"
+      },
+      "successMessage": {
+        "purchase_title": "¡Retiro exitoso!",
+        "purchase_message": "Retirar"
+      }
+    },
+    "exchange": {
+      "name": "Intercambio",
+      "confirm_button": "Convertir y agregar a la cuenta",
+      "from_account": "De la cuenta",
+      "from_amount": "Cantidad de intercambio",
+      "to_account": "A la cuenta",
+      "rate": "Tipo de cambio",
+      "to_amount": "Cantidad final",
+      "errors": {
+        "getExchangeInfo": "No se puede obtener información de intercambio en este momento, intente más tarde",
+        "fromAccountId": "Por favor, elija De la cuenta",
+        "toAccountId": "Elija A la cuenta",
+        "amount": "falta la cantidad",
+        "tos": "Por favor acepte el Término de la Condición",
+        "general": "No se puede cambiar en este momento, intente más tarde"
+      },
+      "successMessage": {
+        "purchase_title": "¡Intercambio exitoso!",
+        "purchase_message": "intercambiado"
+      }
+    },
+    "transfer": {
+      "name": "Transferir",
+      "quick_action_text": "Transferir dinero",
+      "full_name": "Nombre completo del receptor",
+      "friend_email_address": "Dirección de correo electrónico del destinatario",
+      "confirm_button": "TRANSFERIR A AMIGO",
+      "add_button": "+",
+      "add_label": "Agregar",
+      "errors": {
+        "accountId": "Por favor elija Cuenta",
+        "toUserName": "Falta el nombre completo del receptor",
+        "toUserEmail": "Falta la dirección de correo electrónico del destinatario",
+        "amount": "falta la cantidad",
+        "tos": "Por favor acepte el Término de la Condición",
+        "general": "No se puede transferir en este momento, intente más tarde"
+      },
+      "successMessage": {
+        "purchase_title": "¡Transferencia exitosa!",
+        "purchase_message": "transferido"
+      }
+    },
+    "purchase": {
+      "name": "Compra",
+      "unlock_date": "Congelado hasta"
+    },
+    "history": {
+      "recent_order": "Actividades recientes",
+      "empty": "Aún no hay actividades recientes",
+      "name": "Historia",
+      "from": "Desde",
+      "to": "Para",
+      "success": "ÉXITO",
+      "pending": "PENDIENTE",
+      "declined": "RECHAZADO",
+      "back_button": "ESPALDA",
+      "view_more": "Ver más"
+    }
+  },
+  "contact_support": {
+    "success_message": "¡Solicitud de soporte enviada con éxito!",
+    "failed_message": "No se puede enviar la solicitud de soporte en este momento, vuelva a intentarlo más tarde",
+    "missing_comment": "Por favor complete la solicitud de soporte",
+    "title": "Soporte de contacto",
+    "detail_label": "Detalles del contacto",
+    "send_button": "Enviar"
+  }
+}
